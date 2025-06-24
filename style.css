@@ -140,3 +140,11 @@ h1{
     position: relative;
     overflow: hidden;
 }
+.image1 {
+    width: 150px;
+    height: 125px;
+}
+.image2 {
+    width: 200px;
+    height:125px; 
+}
