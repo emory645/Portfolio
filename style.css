@@ -23,7 +23,7 @@ body {
     position: fixed;
     top:0;
     width:100%;
-    padding: 1.5rem 5%;
+    padding: 24px 5%;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -34,17 +34,17 @@ body {
 }
 
 .logo {
-    font-size: 1.8rem;
+    font-size: 26.8px;
     font-weight: 700;
     color: var(--logo);
     text-decoration: none;
     position: relative;
-    padding-left: 2.5rem;
+    padding-left: 40px;
 }
 
 .nav-links {
     display: flex;
-    gap: 2rem;
+    gap: 32px;
     list-style: none;
 }
 
@@ -81,7 +81,7 @@ body {
 
 .home-content{
     flex: 1;
-    padding-right: 5rem;
+    padding-right: 80px;
 }
 .image{
     flex:1;
@@ -104,23 +104,23 @@ body {
 }
 
 h1{
-    font-size: 4rem;
-    margin-bottom: 1.5rem;
+    font-size: 64px;
+    margin-bottom: 24px;
     background: linear-gradient(45deg, var(--accent)30%
     white 70%);
     color: #00BFFF;
 }
 
 .hero p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+    font-size: 19.2;
+    margin-bottom: 32px;
     opacity: 0.9;
     max-width: 600px;
 }
 
 .cta-button{
     display: inline-block;
-    padding: 1rem 2rem;
+    padding: 16px 32px;
     background: linear-gradient(45deg, var(--accent), #00BFFF);
     color: white;
     border-radius: 8px;
@@ -131,7 +131,7 @@ h1{
 }
 .button{
      display: inline-block;
-    padding: 1rem 2rem;
+    padding: 16px 32px;
     background: linear-gradient(45deg, var(--accent), #87CEFA);
     color: white;
     border-radius: 8px;
@@ -154,7 +154,7 @@ h1{
 
 footer {
     background: var(--darker-bg);
-    padding: 3rem 5%;
+    padding: 48px 5%;
     text-align: center;
     border-top: 1px solid rgba(10, 10, 10, 0.95)
 }
@@ -162,7 +162,10 @@ html {
   scroll-behavior: smooth;
 }
 
-.h2 {
-    text-align: center;
-    padding: 3rem 5%;
+h2 {
+text-align: center;
+color: var(--logo);
+}
+.about {
+    background: var(--darker-bg);
 }
