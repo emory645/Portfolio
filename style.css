@@ -141,15 +141,17 @@ h1{
     overflow: hidden;
 }
 .image1 {
-    width: 150px;
-    height: 125px;
+    width: 175px;
+    height: 150px;
+    margin: .8rem;
 }
 .image2 {
-    width: 200px;
-    height:125px; 
+    width: 225px;
+    height:150px; 
 }
 .projects {
     background: var(--darker-bg);
+    padding-top: 12rem;
 }
 
 footer {
@@ -168,4 +170,15 @@ color: var(--logo);
 }
 .about {
     background: var(--darker-bg);
+}
+.about {
+    background: rgb(36, 35, 35);
+    border-radius: 8px;
+    padding-bottom: 32px;
+}
+.About {
+    padding-top: 15rem;
+    background: #050505;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
