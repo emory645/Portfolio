@@ -74,13 +74,18 @@
                 <!--Contact Me-->
                     <section id="contact" class="contact">
                         <h2>Contact Me</h2>
-                        <a href="mailto:emorypp11@gmail.com">Send Email</a>
-                    <form action="/send-email" method="POST">
-  <input type="text" name="name" placeholder="Your Name" required>
-  <input type="email" name="email" placeholder="Your Email" required>
-  <textarea name="message" placeholder="Your Message"></textarea>
-  <button type="submit">Send</button>
-</form>
+                        <p>Email: <span id="email">emorypp11@gmail.com</span></p>
+                        <a href="https://mail.google.com">Email Me</a>
+<button onclick="copyEmail()">Copy Email</button>
+
+<script>
+  function copyEmail() {
+    const email = document.getElementById("email").innerText;
+    navigator.clipboard.writeText(email);
+    alert("Email copied to clipboard!");
+  }
+</script>
+
 
                     </section>
 
