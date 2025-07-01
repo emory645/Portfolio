@@ -167,14 +167,17 @@ html {
 h2 {
 text-align: center;
 color: var(--logo);
+font-size:30px;
 }
 .about {
     background: var(--darker-bg);
 }
 .about {
+    scroll-margin-top: 100px;
     background: rgb(36, 35, 35);
     border-radius: 8px;
     padding-bottom: 32px;
+    font-size: larger;
 }
 .about:hover{
     transform: translateY(-10px);
@@ -182,10 +185,10 @@ color: var(--logo);
     box-shadow: 0 10px 30px var(--accent);
 }
 .About {
-    padding-top: 15rem;
+    padding-top: 350px;
     background: #050505;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 2rem;
 }
 .projects-grid {
 display: grid;
@@ -205,4 +208,15 @@ margin-top: 3rem;
     transform: translateY(-10px);
     border-color: var(--accent);
     box-shadow: 0 10px 30px var(--accent);
+}
+.contact {
+background: var(--darker-bg);
+padding-top: 250px;
+}
+.social-links a {
+font-size: 50px;
+}
+.social-links a:hover {
+    transform: translateY(-3px);
+    color: #00BFFF;
 }
